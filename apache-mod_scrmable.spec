@@ -3,7 +3,7 @@
 %define mod_conf A19_%{mod_name}.conf
 %define mod_so %{mod_name}.so
 
-Summary:	DSO module for the apache web server
+Summary:	Apache module to scramble words
 Name:		apache-%{mod_name}
 Version:	0.1
 Release:	%mkrel 9

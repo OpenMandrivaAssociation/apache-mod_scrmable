@@ -1,0 +1,13 @@
+--- src/mod_scrmable.c	2003-09-22 15:03:52.000000000 +0200
++++ src/mod_scrmable.c.oden	2005-12-16 03:08:43.000000000 +0100
+@@ -227,7 +227,9 @@
+ 		ctx->f = f;
+ 	}
+ 
+-	APR_BRIGADE_FOREACH(e, bb) {
++    for (e = APR_BRIGADE_FIRST(bb);
++         e != APR_BRIGADE_SENTINEL(bb);
++         e = APR_BUCKET_NEXT(e)) {
+ 		const char *str;
+ 		apr_size_t len;
+ 		

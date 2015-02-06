@@ -6,7 +6,7 @@
 Summary:	Apache module to scramble words
 Name:		apache-%{mod_name}
 Version:	0.1
-Release:	15
+Release:	16
 Group:		System/Servers
 License:	Apache License
 URL:		http://sourceforge.net/projects/modscrmable/

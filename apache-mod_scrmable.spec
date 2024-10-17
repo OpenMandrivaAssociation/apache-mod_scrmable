@@ -9,7 +9,7 @@ Version:	0.1
 Release:	16
 Group:		System/Servers
 License:	Apache License
-URL:		http://sourceforge.net/projects/modscrmable/
+URL:		https://sourceforge.net/projects/modscrmable/
 Source0: 	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Patch0:		mod_scrmable-0.1-apache220.diff
